@@ -12,8 +12,7 @@ body {
   color: white;
   font-size: 32px;
   font-weight: 900;
-  padding: 16px;
-  flex: 1;
+  padding: 0 16px;
 }
 
 .footer {
@@ -33,12 +32,19 @@ body {
 
 ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+    margin-bottom: 16px;
 }
 
 a {
   text-decoration: none;
   color: white;
   font-size: 24px;
+
 }
 
 .card {
@@ -46,7 +52,7 @@ a {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
   padding: 16px;
-  max-width: 300px;
+  width: 300px;
 }
 
 .content-container {
